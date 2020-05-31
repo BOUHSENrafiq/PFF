@@ -7,9 +7,11 @@ import {MarkerService} from '../services/marker.service';
   styleUrls: [ './map.component.css' ]
 })
 export class MapComponent implements OnInit{
-  lat1 = 30.508264;
-  lng1 = -9.649937;
-  zoom = 18;
+  // map options center and zoom.
+  lat1 = 30.409902;
+  lng1 = -9.548401;
+  zoom = 19;
+
   lat = '';
   lng = '';
   marker: object;
