@@ -14,8 +14,11 @@ import {MatButtonModule} from '@angular/material/button';
 import { MapComponent } from './map/map.component';
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';
-
-
+import {HttpClientModule} from '@angular/common/http';
+import {GoogleMapsModule} from '@angular/google-maps';
+import {AgmCoreModule} from '@agm/core';
+import { FormsModule } from '@angular/forms';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,14 @@ import {AppRoutingModule} from './app-routing.module';
     BrowserAnimationsModule,
     MatButtonModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    GoogleMapsModule,
+    FormsModule,
+    FontAwesomeModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDGmsIYfiI7sJZu4Et8fhuyfOsjRw3E568'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "rafuiq",
+      "firstName": "dfghjkl",
+      "age": "34",
+      "email": "raf@gmail.com",
+      "phoneNumber": "0611324578",
+      "adress": "string",
+      "password": "azerty",
+      "lat": "30.408264",
+      "lng": "-9.549937"
+    },
+    {
+      "id": 2,
+      "name": "rafuiq",
+      "firstName": "dfghjkl",
+      "age": "34",
+      "email": "raf@gmail.com",
+      "phoneNumber": "0611324578",
+      "adress": "string",
+      "password": "azerty",
+      "lat": "30",
+      "lng": "-9"
+    }
+  ]
+}
