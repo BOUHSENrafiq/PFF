@@ -1,2 +1,12 @@
-<div #mapContainer id="map"></div>
+<agm-map
+  [latitude]="lat1"
+  [longitude]="lng1"
+  [zoom]="zoom">
 
+  <agm-marker
+    *ngFor="let m of marker; let i = index"
+    [latitude]="m.lat"
+    [longitude]="m.lng">
+  </agm-marker>
+
+</agm-map>

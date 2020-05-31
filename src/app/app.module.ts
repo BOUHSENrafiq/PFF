@@ -11,7 +11,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
-import { MapComponent } from './map/map.component';
+
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
@@ -19,6 +19,7 @@ import {GoogleMapsModule} from '@angular/google-maps';
 import {AgmCoreModule} from '@agm/core';
 import { FormsModule } from '@angular/forms';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {MapComponent} from './map/map.component';
 
 @NgModule({
   declarations: [

@@ -1,9 +1,9 @@
-#map {
-  height: 400px;
-  width: 50%;
+agm-map {
+  height: 300px;
 }
-div{
-  line-height: 32px;
-  margin-left: 50px;
-  margin-top: 30px;
+* {
+  font-family: Lato;
+}
+a {
+  color: darkblue;
 }
