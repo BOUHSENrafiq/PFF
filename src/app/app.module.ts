@@ -20,12 +20,15 @@ import {AgmCoreModule} from '@agm/core';
 import { FormsModule } from '@angular/forms';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {MapComponent} from './map/map.component';
+import { StatComponent } from './stat/stat.component';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    MapComponent
+    MapComponent,
+    StatComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +48,8 @@ import {MapComponent} from './map/map.component';
     FontAwesomeModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDGmsIYfiI7sJZu4Et8fhuyfOsjRw3E568'
-    })
+    }),
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
