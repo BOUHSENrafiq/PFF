@@ -1,9 +1,7 @@
 agm-map {
   height: 300px;
-}
-* {
-  font-family: Lato;
-}
-a {
-  color: darkblue;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 50%;
+  float: left;
 }
