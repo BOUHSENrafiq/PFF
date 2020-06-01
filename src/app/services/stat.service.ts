@@ -12,7 +12,7 @@ export class StatService {
    * get today statistics
    */
   getToDayStat(): Observable<any>{
-    const url = 'https://api.covid19api.com/total/dayone/country/morocco'; // API
+    const url = 'https://disease.sh/v2/countries/morocco'; // API
     return this.http.get<any>(url);
   }
 }

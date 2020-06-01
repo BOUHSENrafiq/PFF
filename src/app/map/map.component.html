@@ -1,13 +1,15 @@
+<div class="row">
 <agm-map
   [latitude]="lat1"
   [longitude]="lng1"
   [zoom]="zoom"
   [streetViewControl]="false">
-
   <agm-marker
     *ngFor="let m of marker; let i = index"
     [latitude]="m.lat"
     [longitude]="m.lng">
   </agm-marker>
-
-</agm-map>
+</agm-map></div>
+<div class="row">
+<app-stat></app-stat>
+</div>

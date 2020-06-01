@@ -23,12 +23,13 @@ import {MapComponent} from './map/map.component';
 import { StatComponent } from './stat/stat.component';
 import {MatTableModule} from '@angular/material/table';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     MapComponent,
-    StatComponent
+    StatComponent,
   ],
   imports: [
     BrowserModule,
