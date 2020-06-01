@@ -1,0 +1,46 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "rafuiq",
+      "firstName": "dfghjkl",
+      "age": "34",
+      "email": "raf@gmail.com",
+      "phoneNumber": "0611324578",
+      "adress": "string",
+      "password": "azerty",
+      "lat": "30.408264",
+      "lng": "-9.549937"
+    },
+    {
+      "id": 2,
+      "name": "rafuiq",
+      "firstName": "dfghjkl",
+      "age": "34",
+      "email": "raf@gmail.com",
+      "phoneNumber": "0611324578",
+      "adress": "string",
+      "password": "azerty",
+      "lat": "30",
+      "lng": "-9"
+    }
+  ],
+  "marker": [
+    {
+      "lat": "30.409956",
+      "lng": "-9.548648"
+    },
+    {
+      "lat": "30.410178",
+      "lng": "-9.548294"
+    },
+    {
+      "lat": "30.409749",
+      "lng": "-9.548294"
+    },
+    {
+      "lat": "30.409920",
+      "lng": "-9.548187"
+    }
+  ]
+}
