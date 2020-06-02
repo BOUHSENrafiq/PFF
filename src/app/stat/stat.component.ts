@@ -12,12 +12,14 @@ export class StatComponent implements OnInit {
   Confirmed: number;
   Recovered: number;
   Deaths: number;
+  Flag: any;
   constructor(private statService: StatService) { }
   ngOnInit(): void {
-    // get to day statistics.
+    // get today statistics.
     this.statService.getToDayStat().subscribe(data => {
       console.log(data);
       this.Country = data.country;
+      this.Flag = data.countryInfo.flag;
       this.ToDayCases = data.todayCases;
       this.Confirmed = data.cases;
       this.Recovered = data.recovered;

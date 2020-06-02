@@ -22,6 +22,7 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {MapComponent} from './map/map.component';
 import { StatComponent } from './stat/stat.component';
 import {MatTableModule} from '@angular/material/table';
+import { DetailsComponent } from './details/details.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import {MatTableModule} from '@angular/material/table';
     NavigationComponent,
     MapComponent,
     StatComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
